@@ -1,7 +1,6 @@
 # PythoShop
 
-PythoShop is a Python-based image editing application supporting image manipulation through a graphical interface. The program uses BMP images and includes a collection of filters and tools implemented in Python. The application uses Kivy for the user interface and separates image-processing logic from UI code for clarity and organization.
-
+PythoShop is a Python-based image editing application supporting image manipulation through a graphical interface. The program uses BMP images and includes a collection of filters and tools implemented in Python.
 ---
 
 ## Functionality
@@ -53,18 +52,3 @@ The interface is built with Kivy and supports:
 - Tool and filter selection via dropdown menus
 - Pixel-accurate rendering
 - Saving edited images as BMP files
-
----
-
-## Requirements
-
-- Python 3.x
-- kivy
-- pillow
-
----
-
-## Running the Application
-
-```bash
-python main.py
